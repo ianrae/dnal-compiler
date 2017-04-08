@@ -2,9 +2,9 @@ package org.dnal.dnalc.app;
 
 import static org.junit.Assert.assertEquals;
 
+import org.dnal.dnalc.Application;
 import org.dnal.dnalc.ConfigFileOptions;
 import org.dnal.dnalc.loader.MockConfigLoader;
-import org.dnal.dnalc.Application;
 import org.junit.Test;
 
 
