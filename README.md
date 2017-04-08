@@ -14,10 +14,10 @@ This project can also be used to add custom generators to dnalc.
 
 Fork this project.  Build it 
 
-   mvn clean package assembly:single
+    mvn clean package assembly:single
    
 Copy dnalc-0.2.0-jar-with-dependencies.jar to the example directory.  Run it using ss.bat or by invoking
 
-   java -jar dnalc-0.2.0-jar-with-dependencies.jar g -t=text/custom struct1.dnal
+    java -jar dnalc-0.2.0-jar-with-dependencies.jar g -t=text/custom struct1.dnal
 
 
