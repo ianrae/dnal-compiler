@@ -12,6 +12,7 @@ import org.dnal.core.DType;
 import org.dnal.core.DValue;
 import org.dnal.core.logger.Log;
 import org.dnal.core.nrule.NRule;
+import org.dnal.dnalc.ConfigFileOptions;
 
 public class CustomGenerator implements GenerateVisitor {
     public List<String> outputL = new ArrayList<>();
@@ -90,4 +91,7 @@ public class CustomGenerator implements GenerateVisitor {
 		}
     	
     }
+	@Override
+	public void setOptions(ConfigFileOptions arg0) {
+	}
 }

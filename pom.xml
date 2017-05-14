@@ -4,7 +4,7 @@
   <groupId>org.dnal-lang</groupId>
   <artifactId>dnalc</artifactId>
   <packaging>jar</packaging>
-  <version>0.2.0</version>
+  <version>0.2.1</version>
 
   <name>dnalc</name>
   <url>http://dnal-lang.org</url>
@@ -59,7 +59,7 @@
     <dependency>
      <groupId>org.dnal-lang</groupId>
      <artifactId>dnal</artifactId>
-     <version>0.2.0</version>
+     <version>0.2.1</version>
     </dependency>
 	
  </dependencies>
